@@ -34,3 +34,6 @@ Contiene la firma HTML e le immagini pubbliche da ospitare su GitHub Pages.
 L'icona indirizzo deve apparire bianca sul fondo rosso `#ED0303`, come le altre icone. Il riferimento in `index.html` usa `?v=3` per evitare che i client mostrino la vecchia immagine memorizzata nella cache.
 
 Aggiornamento v4: icona TikTok corretta (simbolo bianco con forma ufficiale); URL con versione per aggiornamento cache.
+
+## Aggiornamento v5
+Icone posizione e TikTok sostituite con PNG bianchi su trasparente, esportati da tracciati vettoriali ad alta risoluzione. Carica `index.html`, `assets/icon_address.png`, `assets/icon_tiktok.png`.
