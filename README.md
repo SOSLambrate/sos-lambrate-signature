@@ -29,3 +29,8 @@ Contiene la firma HTML e le immagini pubbliche da ospitare su GitHub Pages.
 - Le immagini vengono caricate via HTTPS e non come allegati tradizionali.
 - Alcuni client email possono bloccare inizialmente le immagini remote.
 - Per aggiornare la firma, sostituisci i file nel repository e attendi il nuovo deploy di GitHub Pages.
+
+## Aggiornamento icona posizione
+L'icona indirizzo deve apparire bianca sul fondo rosso `#ED0303`, come le altre icone. Il riferimento in `index.html` usa `?v=3` per evitare che i client mostrino la vecchia immagine memorizzata nella cache.
+
+Aggiornamento v4: icona TikTok corretta (simbolo bianco con forma ufficiale); URL con versione per aggiornamento cache.
