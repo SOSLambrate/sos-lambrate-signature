@@ -2,10 +2,30 @@
 
 Contiene la firma HTML e le immagini pubbliche da ospitare su GitHub Pages.
 
-1. Usa il repository **pubblico** già creato `SOSLambrate/sos-lambrate-signature`.
-2. Carica **il contenuto di questa cartella** nella radice del repository (index.html, README.md, assets/).
-3. Vai in Settings > Pages > Build and deployment > Deploy from a branch > main > /(root) > Save.
-4. Dopo la pubblicazione controlla `https://soslambrate.github.io/sos-lambrate-signature/` e `https://soslambrate.github.io/sos-lambrate-signature/assets/logo_sos_lambrate.png`.
-5. Apri la pagina pubblicata, seleziona la firma e copiala nell’editor della posta. Non copiare il codice HTML come testo.
+## Contenuto
+- `index.html`
+- `README.md`
+- cartella `assets/` con:
+  - `logo_sos_lambrate.png`
+  - `icon_phone.png`
+  - `icon_email.png`
+  - `icon_web.png`
+  - `icon_address.png`
+  - `icon_instagram.png`
+  - `icon_facebook.png`
+  - `icon_tiktok.png`
 
-Le immagini sono caricate tramite HTTPS e non come allegati tradizionali. Alcuni client di posta possono bloccare le immagini remote.
+## Pubblicazione
+1. Usa il repository pubblico `SOSLambrate/sos-lambrate-signature`.
+2. Carica **il contenuto di questa cartella** nella radice del repository.
+3. Vai in **Settings > Pages**.
+4. In **Build and deployment** seleziona **Deploy from a branch**.
+5. Scegli **main** e **/(root)**, poi salva.
+6. Dopo la pubblicazione controlla:
+   - `https://soslambrate.github.io/sos-lambrate-signature/`
+   - `https://soslambrate.github.io/sos-lambrate-signature/assets/logo_sos_lambrate.png`
+
+## Note
+- Le immagini vengono caricate via HTTPS e non come allegati tradizionali.
+- Alcuni client email possono bloccare inizialmente le immagini remote.
+- Per aggiornare la firma, sostituisci i file nel repository e attendi il nuovo deploy di GitHub Pages.
